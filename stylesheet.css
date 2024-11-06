@@ -94,5 +94,11 @@ input{
     border: 1px solid darkgray;
     border-radius: 5px;
 }
-
+input:focus{
+    border: 5px solid lightblue;
+}
+input#pwd:invalid,
+input#confirm-pwd:invalid{
+    border: 1px solid coral;
+}
 
