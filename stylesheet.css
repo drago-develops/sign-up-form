@@ -57,6 +57,8 @@ section{
     background-color: rgba(248, 248, 248, 0.5);
     box-shadow: 0px 5px 10px 5px darkgray;
     padding-left: 10px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
 }
 
 .row{
@@ -78,3 +80,19 @@ p{
     font-weight: bold;
     box-shadow: 0px 5px 10px 5px darkgray;
 }
+p.log-in{
+    display: flex;
+    flex-flow: row;
+}
+p>a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
+input{
+    padding: 3px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+
+
