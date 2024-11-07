@@ -60,6 +60,7 @@ section{
     padding-left: 10px;
     border: 1px solid darkgray;
     border-radius: 5px;
+    max-width: 900px;
 }
 
 .row{
